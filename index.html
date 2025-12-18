@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Happy New Year 🎉</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- NAME INPUT -->
+      <div class="input-box" id="inputBox">
+        <h2>✨ New Year Greetings ✨</h2>
+        <p>Please enter your name</p>
+        <input type="text" id="name" placeholder="Your Name" />
+        <button onclick="openCard()">Open Greeting</button>
+      </div>
+
+      <!-- CARD -->
+      <div class="card" id="card">
+        <!-- COVER -->
+        <div class="cover">
+          <h1>🎉 Happy New Year 2025 🎉</h1>
+          <p>A warm wish awaits you inside</p>
+        </div>
+
+        <!-- INSIDE -->
+        <div class="inside">
+          <h2 id="toName"></h2>
+
+          <p class="message" id="animatedMsg"></p>
+
+          <p class="signature">
+            — With Best Wishes<br />
+            <strong>Subha Sundar</strong> 🌸
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Butterflies -->
+    <div id="butterflies"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
